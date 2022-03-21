@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="bluejayengage.Bulkuploaddashboard"/>
+      <class name="bluejayengage.Filters_dashboard"/>
+      <class name="bluejayengage.Loginregistration"/>
+      <class name="bluejayengage.Forgotpassword"/>
+      <class name="bluejayengage.Setnewgoal"/>
+      <class name="bluejayengage.Reactivateprovider"/>
+      <class name="bluejayengage.Searchprovider"/>
+      <class name="bluejayengage.Addprovider_adminonsitesnf"/>
+      <class name="bluejayengage.Assigntreatment"/>
+      <class name="bluejayengage.Searchpatient"/>
+      <class name="bluejayengage.Addpatientwithoutcaregiver"/>
+      <class name="bluejayengage.OV_addpatient"/>
+      <class name="bluejayengage.Addpatmanangesnf"/>
+      <class name="bluejayengage.Schedule_ov"/>
+      <class name="bluejayengage.Addprovider_withoutadminsnf"/>
+      <class name="bluejayengage.AddandAssignSnf"/>
+      <class name="bluejayengage.Edit_provider"/>
+      <class name="bluejayengage.Addprovider_withadminrole"/>
+      <class name="bluejayengage.Prescribe_survey"/>
+      <class name="bluejayengage.Deleteprovider"/>
+      <class name="bluejayengage.Schedulevv_outpatient"/>
+      <class name="bluejayengage.Addpatientwithcaregiver"/>
+      <class name="bluejayengage.Bulkuploadprovider"/>
+      <class name="bluejayengage.Schedule_vv"/>
+      <class name="bluejayengage.Editprofile"/>
+      <class name="bluejayengage.VV_addpatient"/>
+      <class name="bluejayengage.Addprovider_onsitesnf"/>
+      <class name="bluejayengage.Edit_Patient"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

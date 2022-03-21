@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-08T14:20:17 PKT" name="Default suite" finished-at="2022-03-08T14:20:44 PKT" duration-ms="26620">
+    <groups>
+    </groups>
+    <test started-at="2022-03-08T14:20:17 PKT" name="Default test" finished-at="2022-03-08T14:20:44 PKT" duration-ms="26620">
+      <class name="bluejayengage.Addprovider_adminonsitesnf">
+        <test-method is-config="true" signature="es()[pri:0, instance:bluejayengage.Addprovider_adminonsitesnf@323b36e0]" started-at="2022-03-08T14:20:18 PKT" name="es" finished-at="2022-03-08T14:20:20 PKT" duration-ms="2783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- es -->
+        <test-method signature="entrdataprovder()[pri:0, instance:bluejayengage.Addprovider_adminonsitesnf@323b36e0]" started-at="2022-03-08T14:20:20 PKT" name="entrdataprovder" finished-at="2022-03-08T14:20:44 PKT" duration-ms="23781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entrdataprovder -->
+      </class> <!-- bluejayengage.Addprovider_adminonsitesnf -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
