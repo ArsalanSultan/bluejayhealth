@@ -15,7 +15,7 @@ public class Favourite extends Login {
 		Thread.sleep(7000);
 		driver.findElement(By.xpath("//*[@id=\"content\"]/div/div[2]/div/div[1]/div/div/a/img")).click();
 		Thread.sleep(4000);
-		driver.findElement(By.xpath("//*[@id=\"create-new-fav-name-dialog\"]/div/div/div[2]/form/div/div/input")).sendKeys("autom");
+		driver.findElement(By.xpath("//*[@id=\"create-new-fav-name-dialog\"]/div/div/div[2]/form/div/div/input")).sendKeys("automateed");
 		driver.findElement(By.xpath("//*[@id=\"create-new-fav-name-dialog\"]/div/div/div[3]/input")).click();
 		// Initialize instance
 	    Actions action = new Actions(driver);

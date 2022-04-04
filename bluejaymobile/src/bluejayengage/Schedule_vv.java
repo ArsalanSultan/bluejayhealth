@@ -1,5 +1,8 @@
 package bluejayengage;
 
+import java.util.List;
+import java.util.concurrent.ThreadLocalRandom;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -44,9 +47,24 @@ public class Schedule_vv extends Login{
 	           
 	        
 	        
-	        WebElement startdropDown = driver.findElement(By.id("startTime"));
-	        Select select3 = new Select(startdropDown);
-	        select3.selectByVisibleText("11:00 AM");
+
+	         //Get the list of dropdown options
+	         List<WebElement> itemsInDropdown = driver.findElements(By.id("startTime"));
+
+	         // Get the size of dropdown list
+	         int size = itemsInDropdown.size();
+
+	         // Generate the random number
+	         int randomNumber = ThreadLocalRandom.current().nextInt(0, size);
+
+	         // Clicking on random value
+	         itemsInDropdown.get(randomNumber).click();
+	         
+	            
+	         
+//	        WebElement startdropDown = driver.findElement(By.id("startTime"));
+//	        Select select3 = new Select(startdropDown);
+//	        select3.selectByVisibleText("11:00 AM");
 	        
 	        WebElement durationdropDown = driver.findElement(By.id("interval_min"));
 	        Select select4 = new Select(durationdropDown);

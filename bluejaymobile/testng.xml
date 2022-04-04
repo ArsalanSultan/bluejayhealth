@@ -8,7 +8,6 @@
       <class name="bluejayengage.Loginregistration"/>
       <class name="bluejayengage.Forgotpassword"/>
       <class name="bluejayengage.Setnewgoal"/>
-      <class name="bluejayengage.Reactivateprovider"/>
       <class name="bluejayengage.Searchprovider"/>
       <class name="bluejayengage.Addprovider_adminonsitesnf"/>
       <class name="bluejayengage.Assigntreatment"/>
@@ -18,12 +17,11 @@
       <class name="bluejayengage.Addpatmanangesnf"/>
       <class name="bluejayengage.Schedule_ov"/>
       <class name="bluejayengage.Addprovider_withoutadminsnf"/>
-      <class name="bluejayengage.AddandAssignSnf"/>
       <class name="bluejayengage.Edit_provider"/>
       <class name="bluejayengage.Addprovider_withadminrole"/>
       <class name="bluejayengage.Prescribe_survey"/>
-      <class name="bluejayengage.Deleteprovider"/>
       <class name="bluejayengage.Schedulevv_outpatient"/>
+      <class name="bluejayengage.Favourite"/>
       <class name="bluejayengage.Addpatientwithcaregiver"/>
       <class name="bluejayengage.Bulkuploadprovider"/>
       <class name="bluejayengage.Schedule_vv"/>

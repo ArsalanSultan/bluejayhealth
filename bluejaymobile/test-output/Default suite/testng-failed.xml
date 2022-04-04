@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="bluejayengage.OV_addpatient">
+      <class name="bluejayengage.Deleteprovider">
         <methods>
           <include name="shut"/>
-          <include name="addpatov"/>
+          <include name="delpro"/>
           <include name="openchrome"/>
         </methods>
-      </class> <!-- bluejayengage.OV_addpatient -->
+      </class> <!-- bluejayengage.Deleteprovider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

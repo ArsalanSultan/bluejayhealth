@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>29/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>23/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Mar 02 15:17:10 PKT 2022</td>
+<td>Started on:</td><td>Thu Mar 31 14:09:42 PKT 2022</td>
 </tr>
-<tr><td>Total time:</td><td>1626 seconds (1626302 ms)</td>
+<tr><td>Total time:</td><td>1434 seconds (1434785 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,219 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='bluejayengage.Schedulevv_outpatient.vvoutpat()'><b>vvoutpat</b><br>Test class: bluejayengage.Schedulevv_outpatient</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable: [object HTMLDivElement] has no size and location
+  (Session info: chrome=99.0.4844.84)
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;DESKTOP-HECRAMR&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c8a1e12333dd65d1fdb49a2b4085a537, actions {actions=[org.openqa.selenium.interactions.Sequence@45849604]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52051}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52051/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c8a1e12333dd65d1fdb49a2b4085a537
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:627)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:617)
+	at bluejayengage.Schedulevv_outpatient.vvoutpat(Schedulevv_outpatient.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace629289362", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace629289362'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable: [object HTMLDivElement] has no size and location
+  (Session info: chrome=99.0.4844.84)
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;DESKTOP-HECRAMR&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c8a1e12333dd65d1fdb49a2b4085a537, actions {actions=[org.openqa.selenium.interactions.Sequence@45849604]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52051}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52051/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c8a1e12333dd65d1fdb49a2b4085a537
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:627)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:617)
+	at bluejayengage.Schedulevv_outpatient.vvoutpat(Schedulevv_outpatient.java:70)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>23</td>
+<td>bluejayengage.Schedulevv_outpatient@4efbca5a</td></tr>
+<tr>
+<td title='bluejayengage.Assigntreatment.assigntreat()'><b>assigntreat</b><br>Test class: bluejayengage.Assigntreatment</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=&quot;currentTreatmentVids&quot;]/div/div[2] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;DESKTOP-HECRAMR&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59814}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59814/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dd522d2049f6b67a795d3431e536c66a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at bluejayengage.Assigntreatment.assigntreat(Assigntreatment.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1475331837", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1475331837'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=&quot;currentTreatmentVids&quot;]/div/div[2] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;DESKTOP-HECRAMR&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59814}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59814/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dd522d2049f6b67a795d3431e536c66a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at bluejayengage.Assigntreatment.assigntreat(Assigntreatment.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>27</td>
+<td>bluejayengage.Assigntreatment@5c33f1a9</td></tr>
+<tr>
+<td title='bluejayengage.Schedule_vv.vv()'><b>vv</b><br>Test class: bluejayengage.Schedule_vv</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable: [object HTMLDivElement] has no size and location
+  (Session info: chrome=99.0.4844.84)
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;DESKTOP-HECRAMR&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [50977c681010bca2324a36804c4ae9cd, actions {actions=[org.openqa.selenium.interactions.Sequence@7bc8da3f]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60806}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60806/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 50977c681010bca2324a36804c4ae9cd
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:627)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:617)
+	at bluejayengage.Schedule_vv.vv(Schedule_vv.java:81)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1388081103", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1388081103'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable: [object HTMLDivElement] has no size and location
+  (Session info: chrome=99.0.4844.84)
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;DESKTOP-HECRAMR&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [50977c681010bca2324a36804c4ae9cd, actions {actions=[org.openqa.selenium.interactions.Sequence@7bc8da3f]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60806}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60806/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 50977c681010bca2324a36804c4ae9cd
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:627)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:617)
+	at bluejayengage.Schedule_vv.vv(Schedule_vv.java:81)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>28</td>
+<td>bluejayengage.Schedule_vv@67c27493</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,150 +288,120 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='bluejayengage.Addprovider_withoutadminsnf.enterproviderdata()'><b>enterproviderdata</b><br>Test class: bluejayengage.Addprovider_withoutadminsnf</td>
+<td title='bluejayengage.Loginregistration.loginreg()'><b>loginreg</b><br>Test class: bluejayengage.Loginregistration</td>
 <td></td>
-<td>18</td>
-<td>bluejayengage.Addprovider_withoutadminsnf@59662a0b</td></tr>
+<td>43</td>
+<td>bluejayengage.Loginregistration@131774fe</td></tr>
 <tr>
-<td title='bluejayengage.Editprofile.editprofile()'><b>editprofile</b><br>Test class: bluejayengage.Editprofile</td>
+<td title='bluejayengage.Favourite.addvideo()'><b>addvideo</b><br>Test class: bluejayengage.Favourite</td>
 <td></td>
-<td>27</td>
-<td>bluejayengage.Editprofile@55183b20</td></tr>
+<td>39</td>
+<td>bluejayengage.Favourite@1b7cc17c</td></tr>
 <tr>
-<td title='bluejayengage.Addpatmanangesnf.addpatsnf()'><b>addpatsnf</b><br>Test class: bluejayengage.Addpatmanangesnf</td>
+<td title='bluejayengage.Setnewgoal.addgoal()'><b>addgoal</b><br>Test class: bluejayengage.Setnewgoal</td>
 <td></td>
-<td>20</td>
-<td>bluejayengage.Addpatmanangesnf@4efbca5a</td></tr>
-<tr>
-<td title='bluejayengage.VV_addpatient.vvaddpat()'><b>vvaddpat</b><br>Test class: bluejayengage.VV_addpatient</td>
-<td></td>
-<td>61</td>
-<td>bluejayengage.VV_addpatient@4f83df68</td></tr>
-<tr>
-<td title='bluejayengage.Schedulevv_outpatient.vvoutpat()'><b>vvoutpat</b><br>Test class: bluejayengage.Schedulevv_outpatient</td>
-<td></td>
-<td>17</td>
-<td>bluejayengage.Schedulevv_outpatient@2f9f7dcf</td></tr>
-<tr>
-<td title='bluejayengage.Reactivateprovider.reacpro()'><b>reacpro</b><br>Test class: bluejayengage.Reactivateprovider</td>
-<td></td>
-<td>28</td>
-<td>bluejayengage.Reactivateprovider@1623b78d</td></tr>
-<tr>
-<td title='bluejayengage.AddandAssignSnf.assignsnf()'><b>assignsnf</b><br>Test class: bluejayengage.AddandAssignSnf</td>
-<td></td>
-<td>10</td>
-<td>bluejayengage.AddandAssignSnf@77fbd92c</td></tr>
-<tr>
-<td title='bluejayengage.Searchprovider.searchpro()'><b>searchpro</b><br>Test class: bluejayengage.Searchprovider</td>
-<td></td>
-<td>11</td>
-<td>bluejayengage.Searchprovider@c8c12ac</td></tr>
-<tr>
-<td title='bluejayengage.Forgotpassword.forgotpass()'><b>forgotpass</b><br>Test class: bluejayengage.Forgotpassword</td>
-<td></td>
-<td>38</td>
-<td>bluejayengage.Forgotpassword@7f0eb4b4</td></tr>
-<tr>
-<td title='bluejayengage.Addpatientwithoutcaregiver.patientwithoutcare()'><b>patientwithoutcare</b><br>Test class: bluejayengage.Addpatientwithoutcaregiver</td>
-<td></td>
-<td>6</td>
-<td>bluejayengage.Addpatientwithoutcaregiver@9597028</td></tr>
-<tr>
-<td title='bluejayengage.Addprovider_withadminrole.enterdataprovder()'><b>enterdataprovder</b><br>Test class: bluejayengage.Addprovider_withadminrole</td>
-<td></td>
-<td>18</td>
-<td>bluejayengage.Addprovider_withadminrole@1a482e36</td></tr>
+<td>21</td>
+<td>bluejayengage.Setnewgoal@77847718</td></tr>
 <tr>
 <td title='bluejayengage.Bulkuploadprovider.bulkpro()'><b>bulkpro</b><br>Test class: bluejayengage.Bulkuploadprovider</td>
 <td></td>
 <td>20</td>
-<td>bluejayengage.Bulkuploadprovider@35e2d654</td></tr>
-<tr>
-<td title='bluejayengage.Schedule_vv.vv()'><b>vv</b><br>Test class: bluejayengage.Schedule_vv</td>
-<td></td>
-<td>22</td>
-<td>bluejayengage.Schedule_vv@1bd4fdd</td></tr>
-<tr>
-<td title='bluejayengage.Loginregistration.loginreg()'><b>loginreg</b><br>Test class: bluejayengage.Loginregistration</td>
-<td></td>
-<td>47</td>
-<td>bluejayengage.Loginregistration@2b662a77</td></tr>
-<tr>
-<td title='bluejayengage.Deleteprovider.delpro()'><b>delpro</b><br>Test class: bluejayengage.Deleteprovider</td>
-<td></td>
-<td>9</td>
-<td>bluejayengage.Deleteprovider@5b8dfcc1</td></tr>
-<tr>
-<td title='bluejayengage.Prescribe_survey.setsurvey()'><b>setsurvey</b><br>Test class: bluejayengage.Prescribe_survey</td>
-<td></td>
-<td>17</td>
-<td>bluejayengage.Prescribe_survey@72967906</td></tr>
-<tr>
-<td title='bluejayengage.Addprovider_onsitesnf.enterdataprovidr()'><b>enterdataprovidr</b><br>Test class: bluejayengage.Addprovider_onsitesnf</td>
-<td></td>
-<td>22</td>
-<td>bluejayengage.Addprovider_onsitesnf@6cf0e0ba</td></tr>
-<tr>
-<td title='bluejayengage.OV_addpatient.addpatov()'><b>addpatov</b><br>Test class: bluejayengage.OV_addpatient</td>
-<td></td>
-<td>38</td>
-<td>bluejayengage.OV_addpatient@6069db50</td></tr>
-<tr>
-<td title='bluejayengage.AddandAssignSnf.addsnf()'><b>addsnf</b><br>Test class: bluejayengage.AddandAssignSnf</td>
-<td></td>
-<td>13</td>
-<td>bluejayengage.AddandAssignSnf@77fbd92c</td></tr>
-<tr>
-<td title='bluejayengage.Edit_provider.editprov()'><b>editprov</b><br>Test class: bluejayengage.Edit_provider</td>
-<td></td>
-<td>19</td>
-<td>bluejayengage.Edit_provider@67c27493</td></tr>
+<td>bluejayengage.Bulkuploadprovider@77fbd92c</td></tr>
 <tr>
 <td title='bluejayengage.Filters_dashboard.filters()'><b>filters</b><br>Test class: bluejayengage.Filters_dashboard</td>
 <td></td>
 <td>30</td>
-<td>bluejayengage.Filters_dashboard@57a3af25</td></tr>
+<td>bluejayengage.Filters_dashboard@10e31a9a</td></tr>
 <tr>
-<td title='bluejayengage.Addprovider_adminonsitesnf.entrdataprovder()'><b>entrdataprovder</b><br>Test class: bluejayengage.Addprovider_adminonsitesnf</td>
+<td title='bluejayengage.Forgotpassword.forgotpass()'><b>forgotpass</b><br>Test class: bluejayengage.Forgotpassword</td>
 <td></td>
-<td>22</td>
-<td>bluejayengage.Addprovider_adminonsitesnf@4ec4f3a0</td></tr>
-<tr>
-<td title='bluejayengage.Setnewgoal.addgoal()'><b>addgoal</b><br>Test class: bluejayengage.Setnewgoal</td>
-<td></td>
-<td>17</td>
-<td>bluejayengage.Setnewgoal@5c33f1a9</td></tr>
-<tr>
-<td title='bluejayengage.Assigntreatment.assigntreat()'><b>assigntreat</b><br>Test class: bluejayengage.Assigntreatment</td>
-<td></td>
-<td>49</td>
-<td>bluejayengage.Assigntreatment@223191a6</td></tr>
+<td>25</td>
+<td>bluejayengage.Forgotpassword@158d2680</td></tr>
 <tr>
 <td title='bluejayengage.Searchpatient.searchpat()'><b>searchpat</b><br>Test class: bluejayengage.Searchpatient</td>
 <td></td>
-<td>26</td>
-<td>bluejayengage.Searchpatient@49139829</td></tr>
+<td>27</td>
+<td>bluejayengage.Searchpatient@1623b78d</td></tr>
 <tr>
-<td title='bluejayengage.Edit_Patient.editpat()'><b>editpat</b><br>Test class: bluejayengage.Edit_Patient</td>
+<td title='bluejayengage.Addprovider_withadminrole.enterdataprovder()'><b>enterdataprovder</b><br>Test class: bluejayengage.Addprovider_withadminrole</td>
 <td></td>
-<td>29</td>
-<td>bluejayengage.Edit_Patient@7d8995e</td></tr>
+<td>18</td>
+<td>bluejayengage.Addprovider_withadminrole@9597028</td></tr>
 <tr>
-<td title='bluejayengage.Bulkuploaddashboard.bulkupload()'><b>bulkupload</b><br>Test class: bluejayengage.Bulkuploaddashboard</td>
+<td title='bluejayengage.Prescribe_survey.setsurvey()'><b>setsurvey</b><br>Test class: bluejayengage.Prescribe_survey</td>
 <td></td>
-<td>13</td>
-<td>bluejayengage.Bulkuploaddashboard@6356695f</td></tr>
+<td>17</td>
+<td>bluejayengage.Prescribe_survey@6069db50</td></tr>
+<tr>
+<td title='bluejayengage.Editprofile.editprofile()'><b>editprofile</b><br>Test class: bluejayengage.Editprofile</td>
+<td></td>
+<td>27</td>
+<td>bluejayengage.Editprofile@1a482e36</td></tr>
+<tr>
+<td title='bluejayengage.Searchprovider.searchpro()'><b>searchpro</b><br>Test class: bluejayengage.Searchprovider</td>
+<td></td>
+<td>11</td>
+<td>bluejayengage.Searchprovider@7f3b84b8</td></tr>
 <tr>
 <td title='bluejayengage.Addpatientwithcaregiver.addpatwithcare()'><b>addpatwithcare</b><br>Test class: bluejayengage.Addpatientwithcaregiver</td>
 <td></td>
 <td>7</td>
-<td>bluejayengage.Addpatientwithcaregiver@747ddf94</td></tr>
+<td>bluejayengage.Addpatientwithcaregiver@59662a0b</td></tr>
+<tr>
+<td title='bluejayengage.Addpatmanangesnf.addpatsnf()'><b>addpatsnf</b><br>Test class: bluejayengage.Addpatmanangesnf</td>
+<td></td>
+<td>20</td>
+<td>bluejayengage.Addpatmanangesnf@4550bb58</td></tr>
 <tr>
 <td title='bluejayengage.Schedule_ov.scheduleov()'><b>scheduleov</b><br>Test class: bluejayengage.Schedule_ov</td>
 <td></td>
-<td>21</td>
-<td>bluejayengage.Schedule_ov@1b7cc17c</td></tr>
+<td>31</td>
+<td>bluejayengage.Schedule_ov@4ec4f3a0</td></tr>
+<tr>
+<td title='bluejayengage.Addpatientwithoutcaregiver.patientwithoutcare()'><b>patientwithoutcare</b><br>Test class: bluejayengage.Addpatientwithoutcaregiver</td>
+<td></td>
+<td>6</td>
+<td>bluejayengage.Addpatientwithoutcaregiver@c8c12ac</td></tr>
+<tr>
+<td title='bluejayengage.VV_addpatient.vvaddpat()'><b>vvaddpat</b><br>Test class: bluejayengage.VV_addpatient</td>
+<td></td>
+<td>60</td>
+<td>bluejayengage.VV_addpatient@72967906</td></tr>
+<tr>
+<td title='bluejayengage.Edit_Patient.editpat()'><b>editpat</b><br>Test class: bluejayengage.Edit_Patient</td>
+<td></td>
+<td>29</td>
+<td>bluejayengage.Edit_Patient@2f9f7dcf</td></tr>
+<tr>
+<td title='bluejayengage.Bulkuploaddashboard.bulkupload()'><b>bulkupload</b><br>Test class: bluejayengage.Bulkuploaddashboard</td>
+<td></td>
+<td>13</td>
+<td>bluejayengage.Bulkuploaddashboard@44ebcd03</td></tr>
+<tr>
+<td title='bluejayengage.Addprovider_withoutadminsnf.enterproviderdata()'><b>enterproviderdata</b><br>Test class: bluejayengage.Addprovider_withoutadminsnf</td>
+<td></td>
+<td>18</td>
+<td>bluejayengage.Addprovider_withoutadminsnf@223191a6</td></tr>
+<tr>
+<td title='bluejayengage.OV_addpatient.addpatov()'><b>addpatov</b><br>Test class: bluejayengage.OV_addpatient</td>
+<td></td>
+<td>43</td>
+<td>bluejayengage.OV_addpatient@6adbc9d</td></tr>
+<tr>
+<td title='bluejayengage.Addprovider_onsitesnf.enterdataprovidr()'><b>enterdataprovidr</b><br>Test class: bluejayengage.Addprovider_onsitesnf</td>
+<td></td>
+<td>22</td>
+<td>bluejayengage.Addprovider_onsitesnf@5b8dfcc1</td></tr>
+<tr>
+<td title='bluejayengage.Addprovider_adminonsitesnf.entrdataprovder()'><b>entrdataprovder</b><br>Test class: bluejayengage.Addprovider_adminonsitesnf</td>
+<td></td>
+<td>22</td>
+<td>bluejayengage.Addprovider_adminonsitesnf@57a3af25</td></tr>
+<tr>
+<td title='bluejayengage.Edit_provider.editprov()'><b>editprov</b><br>Test class: bluejayengage.Edit_provider</td>
+<td></td>
+<td>19</td>
+<td>bluejayengage.Edit_provider@49139829</td></tr>
 </table><p>
 </body>
 </html>

@@ -1,6 +1,8 @@
 package bluejayengage;
 
+import java.util.List;
 import java.util.Random;
+import java.util.concurrent.ThreadLocalRandom;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -54,7 +56,9 @@ public class VV_addpatient extends Login{
 		 * driver.findElement(By.xpath(
 		 * "/html/body/div[1]/section/div/div/div/div[2]/div[5]/div/div/div[2]/div"));
 		 *  Perform move action // action1.moveToElement(wee).build().perform();
-		 */	    Thread.sleep(7000);
+		 */	
+       
+       Thread.sleep(7000);
 	    driver.findElement(By.id("newPatientFirstName")).sendKeys("bioka");
 	    driver.findElement(By.id("newPatientLastName")).sendKeys("borska");
 	 // initialize a Random object somewhere; you should only need one
@@ -93,9 +97,23 @@ public class VV_addpatient extends Login{
 
       //  frame3Heading.click();
         
-        WebElement startdropDown = driver.findElement(By.id("startTime"));
-        Select select3 = new Select(startdropDown);
-        select3.selectByVisibleText("09:00 PM");
+//        WebElement startdropDown = driver.findElement(By.id("startTime"));
+//        Select select3 = new Select(startdropDown);
+//        select3.selectByVisibleText("09:00 PM");
+        
+        
+      //Get the list of dropdown options
+        List<WebElement> itemsInDropdown = driver.findElements(By.id("startTime"));
+
+        // Get the size of dropdown list
+        int size = itemsInDropdown.size();
+
+        // Generate the random number
+        int randomNumber = ThreadLocalRandom.current().nextInt(0, size);
+
+        // Clicking on random value
+        itemsInDropdown.get(randomNumber).click();  
+        
         
         WebElement durationdropDown = driver.findElement(By.id("interval_min"));
         Select select4 = new Select(durationdropDown);

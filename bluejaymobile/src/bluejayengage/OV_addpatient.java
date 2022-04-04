@@ -64,6 +64,11 @@ public class OV_addpatient extends Login{
         Thread.sleep(4000);
         driver.findElement(By.xpath("/html/body/div[1]/section/div/div/div/div[2]/div[5]/div/div/div[2]/div/div/form/div[3]/span[1]")).click();
         Thread.sleep(3000);
+        driver.findElement(By.xpath("//span[contains(text(),'OK')]")).click();
+       Thread.sleep(3000);
+       driver.findElement(By.id("savingAppointmentBtn")).click();
+       Thread.sleep(2000);
+       driver.navigate().to("https://provider.bluejayhealth.com/#/upcoming-schedules");
 	}
 
 }

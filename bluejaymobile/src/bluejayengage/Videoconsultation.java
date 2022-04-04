@@ -19,7 +19,7 @@ public class Videoconsultation {
 	public WebDriver driver;
 	@BeforeClass
     public void openchrome() throws InterruptedException {
-		  System.setProperty("webdriver.chrome.driver", "C:\\Users\\user\\Downloads\\chromedriver_win32/chromedriver.exe");
+		  System.setProperty("webdriver.chrome.driver", "C:\\Users\\user\\Downloads\\chromedriver_win32 (1)/chromedriver.exe");
 		  
 		//ChromeOptions chromeoptions=new ChromeOptions();
 		// chromeoptions.setHeadless(true);
@@ -60,7 +60,7 @@ public class Videoconsultation {
 	      //  driver.findElement(By.id("vc_firstName")).sendKeys("Reggie");
 	       // driver.findElement(By.id("vc_lastName")).sendKeys("kray");
 	       // driver.findElement(By.id("vc_email")).sendKeys("regkray@grr.la");
-	        driver.findElement(By.id("phoneNo")).sendKeys("508-272-9487");
+	        driver.findElement(By.id("phoneNo")).sendKeys("206-656-1175");
 	        driver.findElement(By.xpath("//*[@id=\"VideoVistConsultation\"]/div[3]/div[1]/div[2]/input")).click();
 	        Thread.sleep(9000);
 	        driver.findElement(By.cssSelector("body")).sendKeys(Keys.CONTROL +"t");
@@ -68,7 +68,7 @@ public class Videoconsultation {
         ArrayList<String> tabs = new ArrayList<String> (driver.getWindowHandles());
 	       driver.switchTo().window(tabs.get(1)); //switches to new tab
 	       // open link in new tab
-	        ((JavascriptExecutor)driver).executeScript("window.open('https://www.receivesms.co/us-phone-number/3457/','_blank');");
+	        ((JavascriptExecutor)driver).executeScript("window.open('https://www.receivesms.co/us-phone-number/3458/','_blank');");
 	        Thread.sleep(3000);
 		    //   driver.get("https://www.receivesms.co/us-phone-number/3433/");
 	     // shift control to other tab
@@ -108,10 +108,19 @@ public class Videoconsultation {
 		    // Perform move action
 		   action1.moveToElement(wee).build().perform();
 		   
+		   
+		   WebElement TxtBoxContent = driver.findElement(By.xpath("//span[@class='btn1']"));
+		  // String confirmaationCode = TxtBoxContent.getAttribute("value");
+		   
+		  // int confirmationCode = Integer.parseInt(confirmaationCode);
+		   
+			System.out.println(TxtBoxContent);
+					//.getAttribute("value"));
+			
 	      //  driver.findElement(By.xpath("//*[contains(text(),'BlueJay Msg')]"));
 		   
-	        WebElement code = driver.findElement(By.xpath("//span[@class='btn1']"));
-	        code.getText();
+	//        WebElement code = driver.findElement(By.xpath("//span[@class='btn1']"));
+	//        code.getText();
 	        // switch to video consult tab
 	       driver.switchTo().window(tabs.get(1)); // switch back to main screen        
 	    
@@ -119,7 +128,7 @@ public class Videoconsultation {
 	      //  driver.get("https://provider.bluejayhealth.com/videoconsultation/#/request-vv/T3BoVnlPL0tVd1oyaGxySC9nMDFZN0JmZmJuc1B4b09sNGcvdTMxTmQ5WT0");
 	         
 	         Thread.sleep(5000);
-	         driver.findElement(By.xpath("//*[@id=\"opt_verification_popup\"]/div/div/div[2]/div[2]/div[2]/input")).sendKeys(""+code);
+	        // driver.findElement(By.xpath("//*[@id=\"opt_verification_popup\"]/div/div/div[2]/div[2]/div[2]/input")).sendKeys(confirmationCode+"");
 	         driver.findElement(By.xpath("//*[@id=\"opt_verification_popup\"]/div/div/div[3]/div[2]/input")).click();
 	         Thread.sleep(3000);
 	        driver.findElement(By.xpath("//*[@id=\"VideoVistConsultation\"]/div[3]/div[1]/div[2]/input")).sendKeys("Boston");

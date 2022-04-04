@@ -3,20 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="bluejayengage.Schedulevv_outpatient">
+      <class name="bluejayengage.Assigntreatment">
         <methods>
           <include name="shut"/>
-          <include name="vvoutpat"/>
+          <include name="assigntreat"/>
           <include name="openchrome"/>
         </methods>
-      </class> <!-- bluejayengage.Schedulevv_outpatient -->
-      <class name="bluejayengage.Deleteprovider">
-        <methods>
-          <include name="shut"/>
-          <include name="delpro"/>
-          <include name="openchrome"/>
-        </methods>
-      </class> <!-- bluejayengage.Deleteprovider -->
+      </class> <!-- bluejayengage.Assigntreatment -->
       <class name="bluejayengage.Schedule_vv">
         <methods>
           <include name="vv"/>
@@ -24,20 +17,13 @@
           <include name="openchrome"/>
         </methods>
       </class> <!-- bluejayengage.Schedule_vv -->
-      <class name="bluejayengage.AddandAssignSnf">
+      <class name="bluejayengage.Schedulevv_outpatient">
         <methods>
           <include name="shut"/>
-          <include name="assignsnf"/>
+          <include name="vvoutpat"/>
           <include name="openchrome"/>
         </methods>
-      </class> <!-- bluejayengage.AddandAssignSnf -->
-      <class name="bluejayengage.Reactivateprovider">
-        <methods>
-          <include name="shut"/>
-          <include name="reacpro"/>
-          <include name="openchrome"/>
-        </methods>
-      </class> <!-- bluejayengage.Reactivateprovider -->
+      </class> <!-- bluejayengage.Schedulevv_outpatient -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
